@@ -28,12 +28,21 @@ import org.junit.runners.Parameterized.Parameters;
 		@Parameters
 		public static Collection userData(){  
 			return Arrays.asList(new Object[][]{  
-				{"A",93},
-				{"B",88},
-				{"C",78},
-				{"C",63},
-				{"D",38},
-				{"B",58}
+				{"ERR",101},
+				{"A",100},
+				{"A",99},
+				{"A",91},
+				{"A",90},
+				{"B",89},
+				{"B",80},
+				{"B",81},
+				{"C",79},
+				{"C",61},
+				{"C",60},
+				{"D",59},
+				{"D",0},
+				{"D",1},
+				{"err",-1}
 		        }) ;  
 		}
 	

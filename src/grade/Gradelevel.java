@@ -13,8 +13,11 @@ public class Gradelevel {
 	
 	 
 	public static  String  studentLevel(int score){
-		
-		if(score<60){
+		if(score<0){
+			System.out.println("err");
+			return "err";
+			}
+		else if(score<60){
 		System.out.println("D");
 		return "D";
 		}
@@ -26,10 +29,14 @@ public class Gradelevel {
 		System.out.println("B");
 		return "B";
 		}
-		else{
+		else if(score<=100){
 		System.out.println("A");
 		return "A";
 		}
+		else{
+			System.out.println("ERR");
+			return "ERR";
+			}
 	}
 	
 	
